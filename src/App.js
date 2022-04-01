@@ -1,15 +1,12 @@
 import './App.css';
-import Cover from './components/cover/Cover';
-
+import Profile from './components/Pages/Profile/Profile';
 function App() {
   return (
     <div className="App">
-      <Cover />
-      <p>
-        Application first run
-      </p>
+      <Profile />
     </div>
   );
 }
 
 export default App;
+ 
