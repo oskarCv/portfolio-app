@@ -1,5 +1,41 @@
-.logo-image{
-    width: 100px;
-    height: 100px;
-    margin-left: 10px;
+/******************************************************************************/
+/*                            Variables                                       */
+/******************************************************************************/
+:root {
+    --primary-white: #fff;
+    --hover-white: rgba(245,245,245,0.4);
+}
+/******************************************************************************/
+/*                            Logo                                            */
+/******************************************************************************/
+.logo{
+    width: 5.25rem;
+    margin-left: 1rem;
+}
+.navbar-brand{
+    max-width: 17.25rem;
+    padding: 0 !important;
+    height: 6.25rem !important;
+
+}
+
+/******************************************************************************/
+/*                            Menu Links                                      */
+/******************************************************************************/
+nav a.nav-link{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 1rem;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    letter-spacing: 0.05rem;
+}
+.navbar-nav > li > a{
+    color: var(--primary-white)!important;
+}
+
+.navbar-nav > li > a.active:focus {
+    border-top: 0.18rem solid var(--primary-white);
 }
